@@ -25,23 +25,22 @@ public class Feature {
 	@When("User enters valid mobile num")
 	public void user_enters_valid_mobile_num() throws InterruptedException {
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@class='ui-grow font-medium']")).sendKeys("9347243214");
+		driver.findElement(By.xpath("//input[@class='ui:grow font-medium']")).sendKeys("9347243214");
 		Thread.sleep(1000);
 	}
 	
 	@And("User enter password")
 	public void user_enter_password() throws InterruptedException {
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("//input[@class='ui-grow']")).sendKeys("T");
-		driver.findElement(By.xpath("//input[@class='ui-grow']")).sendKeys("v");
-		driver.findElement(By.xpath("//input[@class='ui-grow']")).sendKeys("i");
-		driver.findElement(By.xpath("//input[@class='ui-grow']")).sendKeys("s");
-		driver.findElement(By.xpath("//input[@class='ui-grow']")).sendKeys("h");
-		driver.findElement(By.xpath("//input[@class='ui-grow']")).sendKeys("a");
-		Thread.sleep(1000);
-		driver.findElement(By.xpath("//input[@class='ui-grow']")).sendKeys("@");
-		driver.findElement(By.xpath("//input[@class='ui-grow']")).sendKeys("1");
-		driver.findElement(By.xpath("//input[@class='ui-grow']")).sendKeys("2");
+		driver.findElement(By.xpath("//input[@class='ui:grow']")).sendKeys("T");
+		driver.findElement(By.xpath("//input[@class='ui:grow']")).sendKeys("v");
+		driver.findElement(By.xpath("//input[@class='ui:grow']")).sendKeys("i");
+		driver.findElement(By.xpath("//input[@class='ui:grow']")).sendKeys("s");
+		driver.findElement(By.xpath("//input[@class='ui:grow']")).sendKeys("h");
+		driver.findElement(By.xpath("//input[@class='ui:grow']")).sendKeys("a");
+		driver.findElement(By.xpath("//input[@class='ui:grow']")).sendKeys("@");
+		driver.findElement(By.xpath("//input[@class='ui:grow']")).sendKeys("1");
+		driver.findElement(By.xpath("//input[@class='ui:grow']")).sendKeys("2");
 		Thread.sleep(1000);
 	}
 	
@@ -55,7 +54,7 @@ public class Feature {
 	@And("User Enter the MFA code")
 	public void user_Enter_the_MFA_code() throws InterruptedException {
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@class='ui-grow']")).sendKeys("123456");
+		driver.findElement(By.xpath("//input[@class='ui:grow']")).sendKeys("123456");
 		Thread.sleep(1000);
 	}
 	

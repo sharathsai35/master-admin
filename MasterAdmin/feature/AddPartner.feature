@@ -5347,7 +5347,7 @@ Feature: Add Partner page
      And Click on Deactivate button
      Then Validate the Deactivate popup page 
      And Click on Yes button in popup page for deactivate company
-     Then Validate the company after deactivated  
+     Then Validate the company after deactivated
      
    @tag279
    Scenario: In Deactivated Company, Save the data

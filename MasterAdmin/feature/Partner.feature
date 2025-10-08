@@ -3230,21 +3230,21 @@ Feature: Partner page
 #     And click on clear button
 #     Then validate the selected date is cleared or not & validate the Active partner filter & search data 
 #     Then Validate the table for City
-#
-#   @tag177
-#   Scenario: Click on sort by options for Partner Company Z to A
-#     Given user has navigate to login page
-#     When user enters valid mobile num	
-#     And user enter password 
-#     And user click on proceed button
-#     And user Enter the MFA code
-#     And user click proceed button for MFA code
-#     And user click on Partner page
-#     And validate the partner page
-#	  And Click on sort by option for Partner company
-#	  Then Validate the sort by option is clicked or not
-#	  Then Changed alphabetic order from Z to A for Partner Company
-#
+
+   @tag177
+   Scenario: Click on sort by options for Partner Company Z to A
+     Given user has navigate to login page
+     When user enters valid mobile num	
+     And user enter password 
+     And user click on proceed button
+     And user Enter the MFA code
+     And user click proceed button for MFA code
+     And user click on Partner page
+     And validate the partner page
+	  And Click on sort by option for Partner company
+	  Then Validate the sort by option is clicked or not
+	  Then Changed alphabetic order from Z to A for Partner Company
+
 #   @tag178
 #   Scenario: Click on sort by options for Partner Company Z to A with search
 #     Given user has navigate to login page
@@ -10042,721 +10042,721 @@ Feature: Partner page
 #     And Click on Reset button in Add New Partner page
 #     Then Validate the entered Contact Name & Address
 #   
-   @tag511
-   Scenario: Click on Add New Partner button & Click on save button by entering Contact Name & Select Country
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Contact Name & Enter Contact Name
-     And Click on Country & Select Country
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Contact Name & Country
+   #@tag511
+   #Scenario: Click on Add New Partner button & Click on save button by entering Contact Name & Select Country
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Contact Name & Enter Contact Name
+     #And Click on Country & Select Country
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Contact Name & Country
 #    
-   @tag512
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Contact Name & Select Country
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Contact Name & Enter Contact Name
-     And Click on Country & Select Country
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Contact Name & Country
+   #@tag512
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Contact Name & Select Country
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Contact Name & Enter Contact Name
+     #And Click on Country & Select Country
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Contact Name & Country
 #   
-   @tag513
-   Scenario: Click on Add New Partner button & Click on save button by entering Contact Name & Select City
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Contact Name & Enter Contact Name
-     And Click on Country & Select Country
-     And Click on City & Select City
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Contact Name & City
+   #@tag513
+   #Scenario: Click on Add New Partner button & Click on save button by entering Contact Name & Select City
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Contact Name & Enter Contact Name
+     #And Click on Country & Select Country
+     #And Click on City & Select City
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Contact Name & City
 #    
-   @tag514
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Contact Name & Select City
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Contact Name & Enter Contact Name
-     And Click on Country & Select Country
-     And Click on City & Select City
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Contact Name & City
+   #@tag514
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Contact Name & Select City
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Contact Name & Enter Contact Name
+     #And Click on Country & Select Country
+     #And Click on City & Select City
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Contact Name & City
 #   
-   @tag515
-   Scenario: Click on Add New Partner button & Click on save button by entering Contact Name & Bank details
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Contact Name & Enter Contact Name
-     And Click on Bank details & Enter Bank details
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Contact Name & Bank details
+   #@tag515
+   #Scenario: Click on Add New Partner button & Click on save button by entering Contact Name & Bank details
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Contact Name & Enter Contact Name
+     #And Click on Bank details & Enter Bank details
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Contact Name & Bank details
 #    
-   @tag516
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Contact Name & Bank details
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Contact Name & Enter Contact Name
-     And Click on Bank details & Enter Bank details
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Contact Name & Bank details
+   #@tag516
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Contact Name & Bank details
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Contact Name & Enter Contact Name
+     #And Click on Bank details & Enter Bank details
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Contact Name & Bank details
 #   
-   @tag517
-   Scenario: Click on Add New Partner button & Click on save button by entering Contact Name & PAN num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Contact Name & Enter Contact Name
-     And Click on PAN num & Enter PAN num
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Contact Name & PAN num
+   #@tag517
+   #Scenario: Click on Add New Partner button & Click on save button by entering Contact Name & PAN num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Contact Name & Enter Contact Name
+     #And Click on PAN num & Enter PAN num
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Contact Name & PAN num
 #    
-   @tag518
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Contact Name & PAN num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Contact Name & Enter Contact Name
-     And Click on PAN num & Enter PAN num
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Contact Name & PAN num
+   #@tag518
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Contact Name & PAN num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Contact Name & Enter Contact Name
+     #And Click on PAN num & Enter PAN num
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Contact Name & PAN num
 #   
-   @tag519
-   Scenario: Click on Add New Partner button & Click on save button by entering Contact Name & VAT num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Contact Name & Enter Contact Name
-     And Click on VAT num & Enter VAT num
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Contact Name & VAT num
+   #@tag519
+   #Scenario: Click on Add New Partner button & Click on save button by entering Contact Name & VAT num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Contact Name & Enter Contact Name
+     #And Click on VAT num & Enter VAT num
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Contact Name & VAT num
 #    
-   @tag520
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Contact Name & VAT num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Contact Name & Enter Contact Name
-     And Click on VAT num & Enter VAT num
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Contact Name & VAT num
+   #@tag520
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Contact Name & VAT num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Contact Name & Enter Contact Name
+     #And Click on VAT num & Enter VAT num
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Contact Name & VAT num
 #   
-   @tag521
-   Scenario: Click on Add New Partner button & Click on save button by entering Contact Name & GST num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Contact Name & Enter Contact Name
-     And Click on GST num & Enter GST num
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Contact Name & GST num
+   #@tag521
+   #Scenario: Click on Add New Partner button & Click on save button by entering Contact Name & GST num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Contact Name & Enter Contact Name
+     #And Click on GST num & Enter GST num
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Contact Name & GST num
 #    
-   @tag522
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Contact Name & GST num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Contact Name & Enter Contact Name
-     And Click on GST num & Enter GST num
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Contact Name & GST num
+   #@tag522
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Contact Name & GST num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Contact Name & Enter Contact Name
+     #And Click on GST num & Enter GST num
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Contact Name & GST num
 #   
-   @tag523
-   Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & Mobile Num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Partner Moniker & Mobile Num
+   #@tag523
+   #Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & Mobile Num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Partner Moniker & Mobile Num
 #    
-   @tag524
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & Mobile Num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Partner Moniker & Mobile Num
+   #@tag524
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & Mobile Num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Partner Moniker & Mobile Num
 #   
-   @tag525
-   Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & Email ID
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on Email ID & Enter Email ID
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Partner Moniker & Email ID
+   #@tag525
+   #Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & Email ID
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on Email ID & Enter Email ID
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Partner Moniker & Email ID
 #    
-   @tag526
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & Email ID
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on Email ID & Enter Email ID
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Partner Moniker & Email ID
+   #@tag526
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & Email ID
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on Email ID & Enter Email ID
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Partner Moniker & Email ID
 #   
-   @tag527
-   Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & Address
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on Address & Enter Address
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Partner Moniker & Address
+   #@tag527
+   #Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & Address
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on Address & Enter Address
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Partner Moniker & Address
 #    
-   @tag528
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & Address
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on Address & Enter Address
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Partner Moniker & Address
+   #@tag528
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & Address
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on Address & Enter Address
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Partner Moniker & Address
 #   
-   @tag529
-   Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & Select Country
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on Country & Select Country
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Partner Moniker & Country
+   #@tag529
+   #Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & Select Country
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on Country & Select Country
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Partner Moniker & Country
 #    
-   @tag530
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & Select Country
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on Country & Select Country
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Partner Moniker & Country
+   #@tag530
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & Select Country
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on Country & Select Country
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Partner Moniker & Country
 #   
-   @tag531
-   Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & Select City
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on Country & Select Country
-     And Click on City & Select City
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Partner Moniker & City
+   #@tag531
+   #Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & Select City
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on Country & Select Country
+     #And Click on City & Select City
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Partner Moniker & City
 #    
-   @tag532
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & Select City
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on Country & Select Country
-     And Click on City & Select City
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Partner Moniker & City
+   #@tag532
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & Select City
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on Country & Select Country
+     #And Click on City & Select City
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Partner Moniker & City
 #   
-   @tag533
-   Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & Bank details
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on Bank details & Enter Bank details
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Partner Moniker & Bank details
+   #@tag533
+   #Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & Bank details
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on Bank details & Enter Bank details
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Partner Moniker & Bank details
 #    
-   @tag534
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & Bank details
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on Bank details & Enter Bank details
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Partner Moniker & Bank details
+   #@tag534
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & Bank details
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on Bank details & Enter Bank details
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Partner Moniker & Bank details
 #   
-   @tag535
-   Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & PAN num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on PAN num & Enter PAN num
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Partner Moniker & PAN num
+   #@tag535
+   #Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & PAN num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on PAN num & Enter PAN num
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Partner Moniker & PAN num
 #    
-   @tag536
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & PAN num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on PAN num & Enter PAN num
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Partner Moniker & PAN num
+   #@tag536
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & PAN num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on PAN num & Enter PAN num
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Partner Moniker & PAN num
 #   
-   @tag537
-   Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & VAT num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on VAT num & Enter VAT num
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Partner Moniker & VAT num
+   #@tag537
+   #Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & VAT num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on VAT num & Enter VAT num
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Partner Moniker & VAT num
 #    
-   @tag538
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & VAT num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on VAT num & Enter VAT num
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Partner Moniker & VAT num
+   #@tag538
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & VAT num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on VAT num & Enter VAT num
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Partner Moniker & VAT num
 #   
-   @tag539
-   Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & GST num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on GST num & Enter GST num
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Partner Moniker & GST num
+   #@tag539
+   #Scenario: Click on Add New Partner button & Click on save button by entering Partner Moniker & GST num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on GST num & Enter GST num
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Partner Moniker & GST num
 #    
-   @tag540
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & GST num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on Partner Moniker & Enter Partner Moniker
-     And Click on GST num & Enter GST num
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Partner Moniker & GST num
+   #@tag540
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Partner Moniker & GST num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on Partner Moniker & Enter Partner Moniker
+     #And Click on GST num & Enter GST num
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Partner Moniker & GST num
 #  
-   @tag541
-   Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & Email ID
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on Email ID & Enter Email ID
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Mobile Num & Email ID
+   #@tag541
+   #Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & Email ID
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on Email ID & Enter Email ID
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Mobile Num & Email ID
 #    
-   @tag542
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Mobile Num & Email ID
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on Email ID & Enter Email ID
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Mobile Num & Email ID
+   #@tag542
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Mobile Num & Email ID
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on Email ID & Enter Email ID
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Mobile Num & Email ID
 #   
-   @tag543
-   Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & Address
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on Address & Enter Address
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Mobile Num & Address
+   #@tag543
+   #Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & Address
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on Address & Enter Address
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Mobile Num & Address
 #    
-   @tag544
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Mobile Num & Address
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on Address & Enter Address
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Mobile Num & Address
+   #@tag544
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Mobile Num & Address
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on Address & Enter Address
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Mobile Num & Address
 #   
-   @tag545
-   Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & Select Country
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on Country & Select Country
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Mobile Num & Country
+   #@tag545
+   #Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & Select Country
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on Country & Select Country
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Mobile Num & Country
 #    
-   @tag546
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Mobile Num & Select Country
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on Country & Select Country
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Mobile Num & Country
+   #@tag546
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Mobile Num & Select Country
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on Country & Select Country
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Mobile Num & Country
 #   
-   @tag547
-   Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & Select City
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on Country & Select Country
-     And Click on City & Select City
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Mobile Num & City
+   #@tag547
+   #Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & Select City
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on Country & Select Country
+     #And Click on City & Select City
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Mobile Num & City
 #    
-   @tag548
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Mobile Num & Select City
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on Country & Select Country
-     And Click on City & Select City
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Mobile Num & City
+   #@tag548
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Mobile Num & Select City
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on Country & Select Country
+     #And Click on City & Select City
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Mobile Num & City
 #   
-   @tag549
-   Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & Bank details
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on Bank details & Enter Bank details
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Mobile Num & Bank details
+   #@tag549
+   #Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & Bank details
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on Bank details & Enter Bank details
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Mobile Num & Bank details
 #    
-   @tag550
-   Scenario: Click on Add New Partner button & Click on Reset button by entering Mobile Num & Bank details
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on Bank details & Enter Bank details
-     And Click on Reset button in Add New Partner page
-     Then Validate the entered Mobile Num & Bank details
+   #@tag550
+   #Scenario: Click on Add New Partner button & Click on Reset button by entering Mobile Num & Bank details
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on Bank details & Enter Bank details
+     #And Click on Reset button in Add New Partner page
+     #Then Validate the entered Mobile Num & Bank details
 #   
-   @tag551
-   Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & PAN num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on PAN num & Enter PAN num
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Mobile Num & PAN num
+   #@tag551
+   #Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & PAN num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on PAN num & Enter PAN num
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Mobile Num & PAN num
 #    
 #   @tag552
 #   Scenario: Click on Add New Partner button & Click on Reset button by entering Mobile Num & PAN num
@@ -10776,23 +10776,23 @@ Feature: Partner page
 #     And Click on Reset button in Add New Partner page
 #     Then Validate the entered Mobile Num & PAN num
 #   
-   @tag553
-   Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & VAT num
-     Given user has navigate to login page
-     When user enters valid mobile num	
-     And user enter password 
-     And user click on proceed button
-     And user Enter the MFA code
-     And user click proceed button for MFA code
-     And user click on Partner page
-     And validate the partner page
-     And Click on Add New Partner button
-     Then Validate the Add New Partner Page
-     And Click on country code & Select the +91 country code
-     And Click on Mobile Num & Enter Mobile Num
-     And Click on VAT num & Enter VAT num
-     And Click on save button in Add New Partner page
-     Then Validate the save button by entering Mobile Num & VAT num
+   #@tag553
+   #Scenario: Click on Add New Partner button & Click on save button by entering Mobile Num & VAT num
+     #Given user has navigate to login page
+     #When user enters valid mobile num	
+     #And user enter password 
+     #And user click on proceed button
+     #And user Enter the MFA code
+     #And user click proceed button for MFA code
+     #And user click on Partner page
+     #And validate the partner page
+     #And Click on Add New Partner button
+     #Then Validate the Add New Partner Page
+     #And Click on country code & Select the +91 country code
+     #And Click on Mobile Num & Enter Mobile Num
+     #And Click on VAT num & Enter VAT num
+     #And Click on save button in Add New Partner page
+     #Then Validate the save button by entering Mobile Num & VAT num
 #    
 #   @tag554
 #   Scenario: Click on Add New Partner button & Click on Reset button by entering Mobile Num & VAT num
@@ -41736,7 +41736,7 @@ Feature: Partner page
      Then Validate the Add New Partner Page
      And Click on Partner Name & Enter Partner Name
      And Click on Contact Name & Enter Contact Name
-     Click on country code & Select the +91 country code
+     And Click on country code & Select the +91 country code
      And Click on Mobile Num & Enter Mobile Num
      And Click on Bank details & Enter Bank details
      And Click on PAN num & Enter PAN num
@@ -41757,7 +41757,7 @@ Feature: Partner page
      Then Validate the Add New Partner Page
      And Click on Partner Name & Enter Partner Name
      And Click on Contact Name & Enter Contact Name
-     Click on country code & Select the +91 country code
+     And Click on country code & Select the +91 country code
      And Click on Mobile Num & Enter Mobile Num
      And Click on Bank details & Enter Bank details
      And Click on PAN num & Enter PAN num
@@ -41778,7 +41778,7 @@ Feature: Partner page
      Then Validate the Add New Partner Page
      And Click on Partner Name & Enter Partner Name
      And Click on Contact Name & Enter Contact Name
-     Click on country code & Select the +91 country code
+     And Click on country code & Select the +91 country code
      And Click on Mobile Num & Enter Mobile Num
      And Click on Bank details & Enter Bank details
      And Click on VAT num & Enter VAT num
@@ -41799,7 +41799,7 @@ Feature: Partner page
      Then Validate the Add New Partner Page
      And Click on Partner Name & Enter Partner Name
      And Click on Contact Name & Enter Contact Name
-     Click on country code & Select the +91 country code
+     And Click on country code & Select the +91 country code
      And Click on Mobile Num & Enter Mobile Num
      And Click on Bank details & Enter Bank details
      And Click on VAT num & Enter VAT num
@@ -41820,7 +41820,7 @@ Feature: Partner page
      Then Validate the Add New Partner Page
      And Click on Partner Name & Enter Partner Name
      And Click on Contact Name & Enter Contact Name
-     Click on country code & Select the +91 country code
+     And Click on country code & Select the +91 country code
      And Click on Mobile Num & Enter Mobile Num
      And Click on Bank details & Enter Bank details
      And Click on GST num & Enter GST num
@@ -41841,7 +41841,7 @@ Feature: Partner page
      Then Validate the Add New Partner Page
      And Click on Partner Name & Enter Partner Name
      And Click on Contact Name & Enter Contact Name
-     Click on country code & Select the +91 country code
+     And Click on country code & Select the +91 country code
      And Click on Mobile Num & Enter Mobile Num
      And Click on Bank details & Enter Bank details
      And Click on GST num & Enter GST num
@@ -45196,7 +45196,7 @@ Feature: Partner page
      Then Validate the Add New Partner Page
      And Click on Partner Name & Enter Partner Name
      And Click on Partner Moniker & Enter Partner Moniker
-     Click on country code & Select the +91 country code
+     And Click on country code & Select the +91 country code
      And Click on Mobile Num & Enter Mobile Num
      And Click on Bank details & Enter Bank details
      And Click on PAN num & Enter PAN num
@@ -45217,7 +45217,7 @@ Feature: Partner page
      Then Validate the Add New Partner Page
      And Click on Partner Name & Enter Partner Name
      And Click on Partner Moniker & Enter Partner Moniker
-     Click on country code & Select the +91 country code
+     And Click on country code & Select the +91 country code
      And Click on Mobile Num & Enter Mobile Num
      And Click on Bank details & Enter Bank details
      And Click on PAN num & Enter PAN num
@@ -45238,7 +45238,7 @@ Feature: Partner page
      Then Validate the Add New Partner Page
      And Click on Partner Name & Enter Partner Name
      And Click on Partner Moniker & Enter Partner Moniker
-     Click on country code & Select the +91 country code
+     And Click on country code & Select the +91 country code
      And Click on Mobile Num & Enter Mobile Num
      And Click on Bank details & Enter Bank details
      And Click on VAT num & Enter VAT num
@@ -45259,7 +45259,7 @@ Feature: Partner page
      Then Validate the Add New Partner Page
      And Click on Partner Name & Enter Partner Name
      And Click on Partner Moniker & Enter Partner Moniker
-     Click on country code & Select the +91 country code
+     And Click on country code & Select the +91 country code
      And Click on Mobile Num & Enter Mobile Num
      And Click on Bank details & Enter Bank details
      And Click on VAT num & Enter VAT num
@@ -45280,7 +45280,7 @@ Feature: Partner page
      Then Validate the Add New Partner Page
      And Click on Partner Name & Enter Partner Name
      And Click on Partner Moniker & Enter Partner Moniker
-     Click on country code & Select the +91 country code
+     And Click on country code & Select the +91 country code
      And Click on Mobile Num & Enter Mobile Num
      And Click on Bank details & Enter Bank details
      And Click on GST num & Enter GST num
@@ -45301,7 +45301,7 @@ Feature: Partner page
      Then Validate the Add New Partner Page
      And Click on Partner Name & Enter Partner Name
      And Click on Partner Moniker & Enter Partner Moniker
-     Click on country code & Select the +91 country code
+     And Click on country code & Select the +91 country code
      And Click on Mobile Num & Enter Mobile Num
      And Click on Bank details & Enter Bank details
      And Click on GST num & Enter GST num
@@ -45835,7 +45835,7 @@ Feature: Partner page
      And Click on VAT num & Enter VAT num
      And Click on Reset button in Add New Partner page
      Then Validate the entered Partner Name, Partner Moniker, Email ID, Country & VAT num
-#   
+  
    @tag2369
    Scenario: Click on Add New Partner button & Click on save button by entering Partner Name, Partner Moniker, Email ID, Country & GST num
      Given user has navigate to login page
